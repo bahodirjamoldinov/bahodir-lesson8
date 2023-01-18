@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans';
+  /* border: 2px solid red; */
+
+
+}
+
+.back-top {
+  text-align: center;
+  line-height: 50px;
+  width: 40px;
+  height: 40px;
+  font-size: 50px;
+  border: 2px solid white;
+  background: transparent;
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+  border-radius: 50px;
+
+}
+
+.back-top:hover {
+  background-color: black;
+}
+
+.back-top a {
+  text-align: center;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: PNBJ;
+  src: url(../fonts/PostNoBillsJaffna-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url(../fonts/PTSans-Regular.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.divider {
+  width: 130px;
+  border: 1px solid white;
+}
+
+/* .watch-card-start */
+
+.watch-card-body {
+  padding: 55px 21px;
+  text-align: center;
+  background: #191b1c;
+}
+
+.watch-card-body img {
+  width: 100%;
+}
+
+.watch-card-content h3 {
+  margin: 25px 0 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.watch-card-content p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #D0D0D0;
+}
+
+.watch-card1 {
+  width: 100%;
+}
+
+/* .watch-card-end */
+
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+
+}
+
+.top-header {
+  background-color: #000;
+  color: #969696;
+}
+
+.top-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+}
+
+nav {
+  height: 80px;
+  background-color: #0F0F0F;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-logo a {
+  color: white;
+  font-size: 36px;
+}
+
+.navbar-menus,
+.nav,
+.nav-item,
+.nav-link {
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.nav-item,
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+
+  padding: 0 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+}
+
+.nav-item img {
+  margin-left: 45px;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #1F1F1F;
+}
+
+.hamburger {
+  display:none ;
+}
+
+
+.hamburgerr{
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: #FFFFFF;
+  background:none;
+  color: white;
+  /* display: none; */
+  
+}
+
+/* home */
+#home {
+  background: url('../images/Rectangle\ 3.png') no-repeat center;
+  background-size: cover;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 160px;
+  padding-bottom: 154px;
+}
+
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+  height: 320px;
+  width: 320px;
+  border: 4px solid white;
+  /* padding: 93px 67px ; */
+  color: white;
+}
+
+.home-logo h1 {
+  font-family: PNBJ;
+  border-bottom: 2px solid white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+
+.home-logo p {
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.home-content p {
+  max-width: 730px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* new-collection */
+
+.new-coll-row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000;
+}
+
+.new-coll-left,
+.new-coll-rigth {
+  width: 50%;
+}
+
+.new-coll-left {
+  padding: 93px 74px 72px;
+  background-color: #000;
+}
+
+.new-coll-left-content {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.new-coll-left-content h1 {
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.new-coll-left-row {
+  display: flex;
+  gap: 46px;
+}
+
+.new-coll-left-row .watch-card {
+  flex: 1;
+}
+
+.new-coll-rigth {
+  /* padding-bottom: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: url('../images/Rectangle\ 8.png')no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+.new-coll-rigth h2 {
+  margin-top: 300px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.new-coll-rigth button {
+  margin-top: 30px;
+  background-color: transparent;
+  padding: 12px 28px;
+  border: 1px solid white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.new-coll-left-content p {
+  margin-top: 40px;
+  margin-bottom: 73px;
+  font-weight: 400;
+  max-width: 471px;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.new-coll-left-content button {
+  /* margin-top: 30px; */
+  background-color: transparent;
+  padding: 12px 28px;
+  border: 1px solid white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.new-coll-wach001 {
+  display: flex;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  gap: 46px;
+  margin-bottom: 40px;
+
+}
+
+.new-coll-wach002 {
+  display: flex;
+  gap: 46px;
+  margin-bottom: 150px;
+
+}
+
+/* footer */
+
+footer {
+  background-color: #0F0F0F;
+}
+
+.top-footer-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.top-footer-content1 h1 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.bottom-footer-logo1 {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+.bottom-footer-img1 img {
+  width: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+  .new-coll-left,
+  .new-coll-rigth {
+    width: 100%;
+  }
+
+  .new-coll-left {
+    gap: 30px;
+    padding: 40px 15px;
+  }
+
+  .new-coll-wach002 {
+    gap: 46px;
+
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar-menus {
+    display: none;
+  }
+
+  .new-coll-wach001 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .new-coll-wach002 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .new-coll-left-row {
+    flex-direction: column;
+  }
+
+  .bottom-footer-logo1 {
+    /* margin-top: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 30px; */
+  }
+
+
+}
